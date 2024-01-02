@@ -1,4 +1,4 @@
-## Docker container life cycle and Working with volume mounts in Docker
+## Docker container life cycle
 
 ### Task 1: Docker Lifecycle 
 ```
