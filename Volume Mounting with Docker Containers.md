@@ -10,7 +10,6 @@ docker volume ls
 ```
 docker volume inspect ct-volume1
 ```
-```
 
 Task 2: Launching a Nginx container mapped to a specific docker volume and verification
 ```
