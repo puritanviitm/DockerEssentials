@@ -60,9 +60,16 @@ docker-compose up -d
 ```
 ```
 docker-compose ps
-
+```
+```
 docker container ls
+```
+```
 docker network ls
+```
+```
 docker volume ls
-
+```
+```
 docker-compose down
+```
