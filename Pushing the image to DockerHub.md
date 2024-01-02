@@ -32,5 +32,9 @@ docker image ls
 ```
 docker image rm < replace image id/name > < replace image id/name >
 ```
+```
 docker image ls
+```
+```
 docker image ls -a
+```
