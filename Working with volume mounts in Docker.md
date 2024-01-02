@@ -22,7 +22,7 @@ service apache2 status
 ```
 echo 'Hello From Container1' > /var/www/html/index.html
 ```
-```
+
 Press Ctrl+P+Q, to switch back to Host
 ```
 docker run -it --name container2 -v /home/ubuntu/share:/var/www/html ubuntu:18.04
