@@ -13,7 +13,9 @@ To begin, log in to AWS Console.
 ```
 sudo hostnamectl set-hostname docker
 ```
-logout and relogin 
+```
+bash
+``` 
 ```
 sudo su
 ```
@@ -33,5 +35,6 @@ service docker status   # systemctl status docker
 usermod -aG docker ubuntu
 ```
 #regular user --ubuntu---ubuntu user into docker group
-
+```
 docker --version
+```
