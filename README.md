@@ -16,7 +16,7 @@
 * [Lab-3: Docker container life cycle](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Docker%20container%20life%20cycle.md)
 * [Lab-4: ]()
 * [Lab-5: ]()
-* [Lab-6: ]()
+* [Lab-6: Docker Networking](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Docker%20Networking.md)
 * [Lab-7: ]()
 * [Lab-8: ]()
 * [Lab-9: ]()
