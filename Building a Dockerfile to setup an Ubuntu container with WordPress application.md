@@ -1,12 +1,18 @@
-Task 1: Deploying MySQL and WordPress containers
--------------------------------------------------------------
+## Building a Dockerfile to setup an Ubuntu container with WordPress application
 
-mkdir wordpress
-cd wordpress
+### Task 1: Deploying MySQL and WordPress containers
+
+```
+mkdir Wordpress
+```
+```
+cd Wordpress
+```
+```
 vi Dockerfile
-
-#Content of Dockerfile to paste
-
+```
+Content of Dockerfile to paste
+```
 FROM ubuntu:20.04
 MAINTAINER ADMIN "admin@cloudthat.com"
 ENV DEBIAN_FRONTEND=noninteractive
@@ -25,14 +31,26 @@ EXPOSE 80
 CMD ["/usr/sbin/apache2ctl","-D","FOREGROUND"]
 
 #End of Dockerfile
-
-# You can download the above Dockerfile from S3 using - wget https://hpe-content.s3.ap-south-1.amazonaws.com/Dockerfile
-
+```
+You can download the above Dockerfile from S3 using - wget https://hpe-content.s3.ap-south-1.amazonaws.com/Dockerfile
+```
 docker build -t ct-wordpress:v1 .
+```
+```
 docker image ls
-docker network create --driver bridge ct-bridge 
+```
+```
+docker network create --driver bridge ct-bridge
+```
+```
 docker run -d --network ct-bridge --name mysql -e MYSQL_DATABASE=wordpress -e MYSQL_USER=admin -e MYSQL_PASSWORD=password -e MYSQL_ROOT_PASSWORD=password mysql:5.7
-
-docker ps 
-docker run -d --network ct-bridge -p 80:80 ct-wordpress:v1
+```
+```
 docker ps
+```
+```
+docker run -d --network ct-bridge -p 80:80 ct-wordpress:v1
+```
+```
+docker ps
+```
