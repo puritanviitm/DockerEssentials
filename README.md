@@ -17,7 +17,7 @@
 * [Lab-4: ]()
 * [Lab-5: ]()
 * [Lab-6: Docker Networking](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Docker%20Networking.md)
-* [Lab-7: ]()
+* [Lab-7: Building a Dockerfile to setup an Ubuntu container with WordPress application](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Building%20a%20Dockerfile%20to%20setup%20an%20Ubuntu%20container%20with%20WordPress%20application.md)
 * [Lab-8: ]()
 * [Lab-9: ]()
 * [Lab-10:]()
