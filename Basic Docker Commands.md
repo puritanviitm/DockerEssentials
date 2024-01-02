@@ -94,4 +94,6 @@ docker container rm < replace container id/name >
 ```
 docker image ls
 ```
+```
 docker image rm < replace image id >
+```
