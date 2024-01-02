@@ -20,7 +20,4 @@
 * [Lab-7: ]()
 * [Lab-8: ]()
 * [Lab-9: ]()
-* [Lab-10:](h)
-* [Summaries of Each Lab in Docker]()
-* [Frequently used Docker Commands with Explanation]()
-* [Reference Links](https://github.com/Mehar-Nafis/TerraformEssentials/blob/main/Reference%20Links.md)
+* [Lab-10:]()
