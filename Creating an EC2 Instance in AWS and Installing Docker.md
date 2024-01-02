@@ -1,33 +1,37 @@
--------------------------------------------------------------
-Task 1: Launching EC2 instances  
--------------------------------------------------------------
-t2.micro
-Ubuntu Server 18.04 LTS (HVM) Free tier eligible
-10 gb hdd
-enable SSH, HTTP, HTTPS and port no. 8080
+## Creating an EC2 Instance in AWS and Installing Docker
 
+To begin, log in to AWS Console.
 
--------------------------------------------------------
-Task 2: Connecting to EC2 Instances using SSH
--------------------------------------------------------------
-*Open PuTTY software
-*In PuTTY Configuration window, Paste your EC2 Public IP or Public DNS in the Hostname (or IP Address) field, select Private Key and Now click on Open
+### Task-1:  Launching EC2 instances and Connecting to EC2 Instances using SSH
 
--------------------------------------------------------------
-Task 3: Installing Docker on Ubuntu 18.04 operating system 
-------------------------------------------------------------
+* Manually Launch a `t2.micro` instance with OS version as `Ubuntu 22.04 LTS` in North Virginia (us-east-1) Region.
+* Enable SSH, HTTP, HTTPS and Port no. 8080.
+* Configure Storage: 10 GiB
+* Once Launched, Connect to the Instance using `MobaXterm` or `Putty` or `EC2 Instance Connect` with username "`ubuntu`".
+
+### Task-2: Installing Docker on Ubuntu 18.04 operating system 
+```
 sudo hostnamectl set-hostname docker
-
+```
 logout and relogin 
+```
 sudo su
+```
+```
 apt update -y
+```
+```
 apt install curl -y
-
+```
+```
 curl -SSL https://get.docker.com/ | sh
-
+```
+```
 service docker status   # systemctl status docker
-
+```
+```
 usermod -aG docker ubuntu
+```
 #regular user --ubuntu---ubuntu user into docker group
 
 docker --version
