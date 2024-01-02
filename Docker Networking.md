@@ -66,7 +66,7 @@ ping -c 5 ct-c1
 ```
 ping -c 5 ct-c2
 ```
-```
+
 Press Ctrl+P+Q, to switch back to Host
 
 ### Task 3: Using 'Docker network connect' command create a successful connection between containers of different bridges
@@ -107,6 +107,7 @@ ifconfig
 Press Ctrl+P+Q, to switch back to Host
 ```
 docker network inspect host
+```
 
 ### Task 5: Launch a container to none network 
 ```
