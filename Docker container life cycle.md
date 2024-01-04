@@ -21,36 +21,39 @@ List all containers
 ```
 docker container ls -a
 ```
+Start the created container
 ```
 docker container start < container id/name >
 ```
 ```
 docker container ls
 ```
-Start the created container
+Stop the created container
 ```
-docker container stop < replace container id/Name >
-```
-```
-docker container ls -a
-```
-```
-docker container start < replace container id/Name >
-```
-```
-docker container pause < replace container id/Name >
+docker container stop < container id/Name >
 ```
 ```
 docker container ls -a
 ```
 ```
-docker container unpause < replace container id/Name >
+docker container start < container id/Name >
+```
+Pause the container
+```
+docker container pause < container id/Name >
+```
+```
+docker container ls -a
+```
+Unpause the container
+```
+docker container unpause < container id/Name >
 ```
 ```
 docker container ls -a
 ```
 ```
-docker exec -it < replace container id/name > bash
+docker exec -it < container id/name > /bin/bash
 ```
 ```
 cd htdocs
@@ -70,12 +73,14 @@ wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/docker-
 ```
 exit
 ```
+Save the container as an image 
 ```
 docker commit < replace container id/name > myhttpd:version
 ```
 ```
 docker image ls
 ```
+Create a new container with the newly created image
 ```
 docker run -d -p 8080:80 myhttpd:version
 ```
@@ -86,10 +91,10 @@ curl < public IP>:8080
 docker container ls
 ```
 ```
-docker logs < replace container id/name >
+docker logs < container id/name >
 ```
 ```
-docker stats < replace container id/name >
+docker stats < container id/name >
 ```
 ```
 docker container ls
@@ -97,8 +102,13 @@ docker container ls
 ```
 docker stop < replace container id/name >
 ```
+Remove a stopped container
 ```
-docker container rm < replace container id/name >
+docker container rm < replace container id/name > 
+```
+Remove a running container 
+```
+docker container rm < replace container id/name > -f
 ```
 ```
 docker image ls
