@@ -38,6 +38,7 @@ exit
 ```
 docker ps -a
 ```
+Create another container in interactive mode
 ```
 docker run -it --name ct2 ubuntu
 ```
