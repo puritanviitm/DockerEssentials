@@ -60,7 +60,7 @@ exit
 ```
 docker ps
 ```
-Attach to the running container. note that when you attach ,  the primary process is triggered but when you exec again a new process is triggered and not the primary process
+Attach to the running container. Note that when you attach,  the primary process is triggered but when you exec again a new process is triggered. This can be checked by using `ps all`
 ```
 docker attach ct2
 ```
