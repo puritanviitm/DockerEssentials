@@ -9,6 +9,7 @@ List all images available in Local Repo
 ```
 docker image ls
 ```
+Check the history of the image
 ```
 docker image history httpd
 ```
