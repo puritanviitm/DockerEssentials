@@ -36,6 +36,9 @@ ls
 exit
 ```
 ```
+docker ps -a
+```
+```
 docker run -it --name ct2 ubuntu
 ```
 Press Crtl+P+Q to switch the terminal to Docker Host.
