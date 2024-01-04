@@ -1,9 +1,9 @@
 ## Basic Docker Commands
 
 ### Task 1: Creating your first Docker container
-
+Pull the image from Docker Hub to the Local repo and start the container
 ```
-docker run hello-world
+docker run hello-world  
 ```
 ### Task 2: Basic Commands to run the Container in Interactive mode
 
