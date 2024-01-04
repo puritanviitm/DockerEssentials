@@ -85,7 +85,7 @@ Create a new container with the newly created image
 docker run -d -p 8080:80 myhttpd:version
 ```
 ```
-curl < public IP>:8080
+curl < public IP>:8080  #Public IP of your host machine
 ```
 ```
 docker container ls
