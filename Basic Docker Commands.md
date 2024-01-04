@@ -46,6 +46,7 @@ Press Crtl+P+Q to switch the terminal to Docker Host.
 ```
 docker ps
 ```
+Execute commands in an active container
 ```
 docker exec -it ct2 /bin/sh
 ```
