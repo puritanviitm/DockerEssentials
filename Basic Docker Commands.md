@@ -22,6 +22,7 @@ List all processes related to containers including exited or terminated
 ```
 docker ps -a
 ```
+Run the container in interactive mode
 ```
 docker run -it --name ct1 ubuntu
 ```
