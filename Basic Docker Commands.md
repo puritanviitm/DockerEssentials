@@ -18,7 +18,7 @@ List all running processes related to containers
 ```
 docker ps
 ```
-List all running processes related to containers including exited or terminated
+List all processes related to containers including exited or terminated
 ```
 docker ps -a
 ```
