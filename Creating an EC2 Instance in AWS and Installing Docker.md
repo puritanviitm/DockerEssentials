@@ -35,9 +35,9 @@ If the service is not active, then we need to start the service
 ```
 service docker start    # Or systemctl start docker
 ```
-To add ubuntu user to docker group
+To add ubuntu user to docker group, if you are not working as the root user
 ```
-usermod -aG docker ubuntu
+sudo usermod -aG docker ubuntu
 ```
 ```
 docker --version
