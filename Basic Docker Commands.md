@@ -50,6 +50,9 @@ Execute commands in an active container
 ```
 docker exec -it ct2 /bin/sh
 ```
+List all the processes in the container.
+```
+ps all
 ```
 exit
 ```
