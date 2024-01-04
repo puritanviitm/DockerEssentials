@@ -52,7 +52,7 @@ docker exec -it ct2 /bin/sh
 ```
 List all the processes in the container.
 ```
-ps all
+ps all  #Or ps aux
 ```
 ```
 exit
