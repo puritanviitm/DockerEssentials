@@ -14,6 +14,14 @@ List all the images in the local repo
 ```
 docker image ls
 ```
+List all running processes related to containers
+```
+docker ps
+```
+List all running processes related to containers including exited or terminated
+```
+docker ps -a
+```
 ```
 docker run -it --name ct1 ubuntu
 ```
@@ -25,12 +33,6 @@ ls
 ```
 ```
 exit
-```
-```
-docker ps
-```
-```
-docker ps -a
 ```
 ```
 docker run -it --name ct2 ubuntu
