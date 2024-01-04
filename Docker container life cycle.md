@@ -27,6 +27,7 @@ docker container start < container id/name >
 ```
 docker container ls
 ```
+Start the created container
 ```
 docker container stop < replace container id/Name >
 ```
