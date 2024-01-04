@@ -29,7 +29,11 @@ apt install curl -y
 curl -SSL https://get.docker.com/ | sh
 ```
 ```
-service docker status   # systemctl status docker
+service docker status   # Or systemctl status docker
+```
+If the service is not active, then we need to start the service
+```
+service docker start    # Or systemctl start docker
 ```
 To add ubuntu user to docker group
 ```
