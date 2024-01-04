@@ -6,7 +6,7 @@ Pull the image from Docker Hub to the Local repo and start the container
 docker run hello-world  
 ```
 ### Task 2: Basic Commands to run the Container in Interactive mode
-Download the image form Docker Hub to the Loca repo
+Download the image from Docker Hub to the Local repo
 ```
 docker pull ubuntu
 ```
