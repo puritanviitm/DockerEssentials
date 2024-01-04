@@ -54,11 +54,13 @@ List all the processes in the container.
 ```
 ps all
 ```
+```
 exit
 ```
 ```
 docker ps
 ```
+Attach to the running container. note that when you attach ,  the primary process is triggered but when you exec again a new process is triggered and not the primary process
 ```
 docker attach ct2
 ```
