@@ -73,6 +73,28 @@ docker ps
 ```
 docker ps -a
 ```
+Run container in detach mode
+```
+docker run -d --name ct3 nginx
+```
+```
+docker ps -a
+```
+```
+docker exec -it <container name/container id> /bin/bash
+```
+```
+apt update && apt install -y wget curl
+```
+```
+ps aux
+```
+```
+exit
+```
+```
+ps aux
+```
 
 ### Task 3: Port Mapping from Docker Host to container
 ```
