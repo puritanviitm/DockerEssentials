@@ -31,7 +31,7 @@ curl -SSL https://get.docker.com/ | sh
 ```
 service docker status   # systemctl status docker
 ```
-To add ubuntu user to doccker group
+To add ubuntu user to docker group
 ```
 usermod -aG docker ubuntu
 ```
