@@ -1,23 +1,27 @@
 ## Docker container life cycle
 
 ### Task 1: Docker Lifecycle 
+Pull Docker Image
 ```
 docker pull httpd
 ```
+List all images available in Local Repo
 ```
 docker image ls
 ```
 ```
 docker image history httpd
 ```
+Create container
 ```
 docker container create httpd
 ```
+List all containers
 ```
 docker container ls -a
 ```
 ```
-docker container start < replace container id/name >
+docker container start < container id/name >
 ```
 ```
 docker container ls
