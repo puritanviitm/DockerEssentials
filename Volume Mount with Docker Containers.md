@@ -78,11 +78,3 @@ docker volume rm ct-volume1
 ```
 docker volume ls
 ```
-### Task 4: Create a container with tmpfs mount and verify it
-
-```
-docker run -d -it --name tmpmount --mount type=tmpfs,destination=/app nginx:latest
-```
-```
-docker container inspect tmpmount
-```
