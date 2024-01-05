@@ -90,6 +90,7 @@ curl < public IP>:8080  #Public IP of your host machine
 ```
 docker container ls
 ```
+Check the logs of the container
 ```
 docker logs < container id/name >
 ```
