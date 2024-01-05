@@ -16,6 +16,7 @@
 * [Lab-3: Docker container life cycle](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Docker%20container%20life%20cycle.md)
 * [Lab-4: Volume Mount in Docker](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Bind%20Mount%20in%20Docker.md)
 * [Lab-5: Bind Mount in Docker](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Bind%20Mount%20in%20Docker.md)
+* [lab-6: tmpfs Mount in Docker]()
 * [Lab-6: Docker Networking](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Docker%20Networking.md)
 * [Lab-7: Building a Dockerfile to setup an Ubuntu container with WordPress application](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Building%20a%20Dockerfile%20to%20setup%20an%20Ubuntu%20container%20with%20WordPress%20application.md)
 * [Lab-8: Pushing the image to DockerHub](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Pushing%20the%20image%20to%20DockerHub.md)
