@@ -1,4 +1,4 @@
-## Volume Mounting with Docker Containers
+## Volume Mount with Docker Containers
 
 ### Task 1: Creating a new docker volume and inspecting containers
 ```
