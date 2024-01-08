@@ -1,7 +1,5 @@
 ## Docker Networking
-
-
-### Task 1: Create a new docker bridge and check connectivity between containers of same bridge
+### Task 1: Create 2 containers and check the connectivity between them.
 ```
 docker network ls
 ```
@@ -14,6 +12,8 @@ docker run -d --name ct1 alpine sleep 3600
 ```
 docker ps
 ```
+
+### Task 2: Create a new docker bridge and check connectivity between containers of same bridge
 ```
 docker network create --driver bridge ct-bridge1
 ```
