@@ -1,5 +1,5 @@
 ## Docker Networking
-### Task 1: Create 2 containers and check the connectivity between them.
+### Task 1: Create containers and check the connectivity between them.
 ```
 docker network ls
 ```
