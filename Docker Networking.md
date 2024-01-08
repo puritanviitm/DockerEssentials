@@ -50,12 +50,12 @@ docker network inspect ct-bridge1
 docker network ls
 ```
 ```
-docker run -it --network ct-bridge1 --name=ct-c1 busybox
+docker run -it --network ct-bridge1 --name=ct3 busybox
 ```
 
 Press Ctrl+P+Q, to switch back to Host
 ```
-docker run -it --network ct-bridge1 --name=ct-c2 busybox
+docker run -it --network ct-bridge1 --name=ct4 busybox
 ```
 Press Ctrl+P+Q, to switch back to Host
 ```
@@ -65,13 +65,13 @@ docker network inspect ct-bridge1
 docker ps
 ```
 ```
-docker attach ct-c2
+docker attach ct3
 ```
 ```
 ip addr
 ```
 ```
-ping -c 5 ct-c1
+ping -c 5 ct4
 ```
 Press Ctrl+P+Q, to switch back to Host
 
