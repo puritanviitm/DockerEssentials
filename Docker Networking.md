@@ -110,10 +110,10 @@ Press Ctrl+P+Q, to switch back to Host
 docker network ls
 ```
 ```
-docker network connect ct-bridge2 ct1
+docker network connect ct-bridge1 ct1
 ```
 ```
-docker network inspect ct-bridge2
+docker network inspect ct-bridge1
 ```
 ```
 docker attach ct1
