@@ -80,27 +80,27 @@ Press Ctrl+P+Q, to switch back to Host
 docker network create --driver bridge ct-bridge2
 ```
 ```
-docker run -it --network ct-bridge2 --name=ct-c3 busybox
+docker run -it --network ct-bridge2 --name=ct5 busybox
 ```
 Press Ctrl+P+Q, to switch back to Host
 ```
-docker run -it --network ct-bridge2 --name=ct-c4 busybox
+docker run -it --network ct-bridge2 --name=ct6 busybox
 ```
 Press Ctrl+P+Q, to switch back to Host
 ```
-docker attach ct-c4
+docker attach ct5
 ```
 ```
-ping -c 5 ct-c3
+ping -c 5 ct6
 ```
 ```
 ip addr
 ```
 ```
-ping -c 5 ct-c1
+ping -c 5 ct3
 ```
 ```
-ping -c 5 ct-c2
+ping -c 5 ct4
 ```
 
 Press Ctrl+P+Q, to switch back to Host
