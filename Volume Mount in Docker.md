@@ -9,6 +9,9 @@ pwd
 ```
 ls
 ```
+```
+cd volumes
+```
 
 ### Task 1: Creating a new docker volume and inspecting containers
 ```
