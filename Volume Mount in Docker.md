@@ -1,4 +1,14 @@
 ## Volume Mount in Docker
+### Checking Volumes in Docker Area
+```
+cd /var/lib/docker
+```
+```
+pwd
+```
+```
+ls
+```
 
 ### Task 1: Creating a new docker volume and inspecting containers
 ```
