@@ -42,14 +42,30 @@ docker rm -vf container1 container2
 
 ### Task 2: Create a bind mount with --mount option and verify it
 ```
-docker run -d -it --name newbind01 --mount type=bind,source=/home/ubuntu/share/,target=/app nginx:latest
+docker run -d -it --name container3 --mount type=bind,source=/home/ubuntu/share/,target=/app nginx:latest
 ```
 ```
-docker inspect newbind01
+docker inspect container3
 ```
 ```
-docker exec -it newbind01 bash
+docker exec -it container3 bash
 ```
 ```
-mount | grep -i /app
+cd app && ls
 ```
+```
+cat index.html
+```
+```
+echo "hello from container3" > index.html
+```
+```
+exit
+```
+```
+cd /home/ubuntu/share/
+```
+```
+cat index.html
+```
+
