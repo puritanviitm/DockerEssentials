@@ -15,11 +15,30 @@ docker ps
 ```
 docker inspect network bridge
 ```
+```
 docker exec -it ct1 sh
+```
 ```
 ping <IP address of ct2>
 ```
-
+```
+ping ct2
+```
+```
+exit
+```
+```
+docker exec -it ct2 sh
+```
+```
+ping <IP address of ct1>
+```
+```
+ping ct1
+```
+```
+exit
+```
 ### Task 2: Create a new docker bridge and check connectivity between containers of same bridge
 ```
 docker network create --driver bridge ct-bridge1
