@@ -21,4 +21,4 @@
 * [Lab-8: Building a Dockerfile to setup an Ubuntu container with WordPress application](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Building%20a%20Dockerfile%20to%20setup%20an%20Ubuntu%20container%20with%20WordPress%20application.md)
 * [Lab-9: Pushing the image to DockerHub](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Pushing%20the%20image%20to%20DockerHub.md)
 * [Lab-10: Building Efficient Docker Images](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Building%20Efficient%20Docker%20Images.md)
-* [Lab-11: Docker Compose](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Docker%20Compose.md)
+
