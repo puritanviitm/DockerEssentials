@@ -75,7 +75,7 @@ ping -c 5 ct-c1
 ```
 Press Ctrl+P+Q, to switch back to Host
 
-### Task 2: Create a new docker bridge and check connectivity between containers of different bridges
+### Task 3: Create a new docker bridge and check connectivity between containers of different bridges
 ```
 docker network create --driver bridge ct-bridge2
 ```
@@ -105,7 +105,7 @@ ping -c 5 ct-c2
 
 Press Ctrl+P+Q, to switch back to Host
 
-### Task 3: Using 'Docker network connect' command create a successful connection between containers of different bridges
+### Task 4: Using 'Docker network connect' command create a successful connection between containers of different bridges
 ```
 docker network ls
 ```
@@ -128,7 +128,7 @@ ip addr
 ip route
 ```
 
-### Task 4: Launch a container to host network
+### Task 5: Launch a container to host network
 ```
 docker run -it --network host --name=ct-c5 busybox
 ```
@@ -144,7 +144,7 @@ Press Ctrl+P+Q, to switch back to Host
 docker network inspect host
 ```
 
-### Task 5: Launch a container to none network 
+### Task 6: Launch a container to none network 
 ```
 docker run -it --network none --name=ct-c6 busybox
 ```
