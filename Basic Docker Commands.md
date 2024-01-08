@@ -75,13 +75,13 @@ docker ps -a
 ```
 Run container in detach mode
 ```
-docker container run -d --name ct3 nginx
+docker container run -d --name ct4 nginx
 ```
 ```
 docker ps -a
 ```
 ```
-docker container exec -it <container name/container id> /bin/bash
+docker container exec -it ct4 /bin/bash
 ```
 ```
 apt update && apt install -y wget curl
