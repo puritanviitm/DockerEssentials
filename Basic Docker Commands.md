@@ -3,12 +3,12 @@
 ### Task 1: Creating your first Docker container
 Pull the image from Docker Hub to the Local repo and start the container
 ```
-docker run hello-world  
+docker container run hello-world  
 ```
 ### Task 2: Basic Commands to run the Container in Interactive mode
 Download the image from Docker Hub to the Local repo
 ```
-docker pull ubuntu
+docker image pull ubuntu
 ```
 List all the images in the local repo
 ```
@@ -24,7 +24,7 @@ docker ps -a
 ```
 Run the container in interactive mode
 ```
-docker run -it --name ct1 ubuntu
+docker container run -it --name ct1 ubuntu
 ```
 ```
 touch f1 f2 f3
@@ -40,7 +40,7 @@ docker ps -a
 ```
 Create another container in interactive mode
 ```
-docker run -it --name ct2 ubuntu
+docker container run -it --name ct2 ubuntu
 ```
 Press Crtl+P+Q to switch the terminal to Docker Host.
 ```
@@ -48,7 +48,7 @@ docker ps
 ```
 Execute commands in an active container
 ```
-docker exec -it ct2 /bin/sh
+docker container exec -it ct2 /bin/sh
 ```
 List all the processes in the container.
 ```
@@ -62,7 +62,7 @@ docker ps
 ```
 Attach to the running container. Note that when you attach,  the primary process is triggered but when you exec again a new process is triggered. This can be checked by using `ps all`
 ```
-docker attach ct2
+docker container attach ct2
 ```
 ```
 exit
@@ -75,13 +75,13 @@ docker ps -a
 ```
 Run container in detach mode
 ```
-docker run -d --name ct3 nginx
+docker container run -d --name ct3 nginx
 ```
 ```
 docker ps -a
 ```
 ```
-docker exec -it <container name/container id> /bin/bash
+docker container exec -it <container name/container id> /bin/bash
 ```
 ```
 apt update && apt install -y wget curl
