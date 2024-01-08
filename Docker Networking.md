@@ -110,16 +110,16 @@ Press Ctrl+P+Q, to switch back to Host
 docker network ls
 ```
 ```
-docker network connect ct-bridge2 ct-c1
+docker network connect ct-bridge2 ct1
 ```
 ```
 docker network inspect ct-bridge2
 ```
 ```
-docker attach ct-c1
+docker attach ct1
 ```
 ```
-ping -c 5 ct-c4
+ping -c 5 ct5
 ```
 ```
 ip addr
