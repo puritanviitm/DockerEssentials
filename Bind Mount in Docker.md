@@ -48,7 +48,7 @@ docker run -d -it --name newbind01 --mount type=bind,source=/home/ubuntu/share/,
 docker inspect newbind01
 ```
 ```
-docker exec -it container3 bash
+docker exec -it newbind01 bash
 ```
 ```
 mount | grep -i /app
