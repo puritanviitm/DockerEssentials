@@ -7,10 +7,16 @@ docker network ls
 docker run -d --name ct1 alpine sleep 3600
 ```
 ```
-docker run -d --name ct1 alpine sleep 3600
+docker run -d --name ct2 alpine sleep 3600
 ```
 ```
 docker ps
+```
+docker inspect network bridge
+```
+docker exec -it ct1 sh
+```
+ping <IP address of ct2>
 ```
 
 ### Task 2: Create a new docker bridge and check connectivity between containers of same bridge
