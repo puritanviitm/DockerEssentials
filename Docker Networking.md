@@ -41,7 +41,7 @@ exit
 ```
 ### Task 2: Create a new docker bridge and check connectivity between containers of same bridge
 ```
-docker network create --driver bridge ct-bridge1
+docker network create ct-bridge1
 ```
 ```
 docker network inspect ct-bridge1
