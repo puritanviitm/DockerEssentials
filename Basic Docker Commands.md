@@ -98,7 +98,7 @@ ps aux
 
 ### Task 3: Port Mapping from Docker Host to container
 ```
-docker run -d -p 80:80 httpd
+docker run -d -p 8080:80 httpd
 ```
 ```
 docker ps
