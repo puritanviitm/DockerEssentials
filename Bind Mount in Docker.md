@@ -39,6 +39,9 @@ docker ps -a
 ```
 docker rm -vf container1 container2 
 ```
+```
+cat /home/ubuntu/share/index.html
+```
 
 ### Task 2: Create a bind mount with --mount option and verify it
 ```
