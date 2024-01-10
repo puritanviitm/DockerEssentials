@@ -26,7 +26,7 @@ docker volume inspect ct-volume1
 
 ### Task 2: Launching a Nginx container mapped to a specific docker volume and verification
 ```
-docker run -d -p 80:80 --name=nginx-container --mounttype=volume, src=ct-volume1,dst=/usr/share/nginx/html nginx
+docker run -d -p 80:80 --name=nginx-container --mount type=volume, src=ct-volume1,dst=/usr/share/nginx/html nginx
 ```
 ```
 docker ps
