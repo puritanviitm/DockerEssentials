@@ -20,6 +20,9 @@ service apache2 start
 service apache2 status
 ```
 ```
+curl localhost:80
+```
+```
 echo 'Hello From Container1' > /var/www/html/index.html
 ```
 
