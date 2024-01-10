@@ -25,7 +25,9 @@ curl localhost:80
 ```
 echo 'Hello From Container1' > /var/www/html/index.html
 ```
-
+```
+curl localhost:80
+```
 Press Ctrl+P+Q, to switch back to Host
 ```
 docker inspect container1
