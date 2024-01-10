@@ -32,6 +32,7 @@ Press Ctrl+P+Q, to switch back to Host
 ```
 docker inspect container1
 ```
+Check for keyword `Mounts`
 ```
 docker run -it --name container2 -v /home/ubuntu/share:/var/www/html ubuntu:18.04
 ```
