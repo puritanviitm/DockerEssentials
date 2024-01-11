@@ -24,9 +24,7 @@ ping <IP address of ct2> -c 5
 ```
 ping ct2
 ```
-```
-exit
-```
+Press Ctrl+P+Q, to switch back to Host
 ```
 docker exec -it ct2 sh
 ```
@@ -36,9 +34,9 @@ ping <IP address of ct1> -c 5
 ```
 ping ct1
 ```
-```
-exit
-```
+Press Ctrl+P+Q, to switch back to Host
+
+
 ### Task 2: Create a new docker bridge and check connectivity between containers of same bridge
 ```
 docker network create ct-bridge1    # docker network create --driver bridge ct-bridge1
@@ -116,6 +114,7 @@ ping -c 5 ct4
 
 Press Ctrl+P+Q, to switch back to Host
 
+
 ### Task 4: Using 'Docker network connect' command create a successful connection between containers of different bridges
 ```
 docker network ls
@@ -139,6 +138,7 @@ docker network connect bridge ct3
 ```
 docker network inspect bridge
 ```
+
 
 ### Task 5: Launch a container to host network
 ```
