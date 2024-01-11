@@ -31,7 +31,7 @@ exit
 docker exec -it ct2 sh
 ```
 ```
-ping <IP address of ct1>
+ping <IP address of ct1> -c 5
 ```
 ```
 ping ct1
