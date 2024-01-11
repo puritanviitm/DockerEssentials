@@ -176,7 +176,7 @@ docker inspect host
 ```
 ### Task 6: Launch a container to none network 
 ```
-docker run -d --network none --name=ct-c6 busybox
+docker run -it --network none --name=ct11 busybox
 ```
 ```
 ip addr
