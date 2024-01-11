@@ -183,3 +183,6 @@ ip addr
 ```
 ```
 Press Ctrl+P+Q, to switch back to Host
+```
+docker inspect none
+```
