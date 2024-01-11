@@ -141,15 +141,17 @@ ip route
 
 ### Task 5: Launch a container to host network
 ```
-docker run -it --network host --name=ct-c5 busybox
+docker run -d --network host --name=ct7 nginx
 ```
 ```
-ip addr
+docker ps -a
 ```
 ```
-ifconfig
+docker exec -it ct7 sh
 ```
-
+```
+curl localhost:80
+```
 Press Ctrl+P+Q, to switch back to Host
 ```
 docker network inspect host
@@ -157,7 +159,7 @@ docker network inspect host
 
 ### Task 6: Launch a container to none network 
 ```
-docker run -it --network none --name=ct-c6 busybox
+docker run -d --network none --name=ct-c6 busybox
 ```
 ```
 ip addr
