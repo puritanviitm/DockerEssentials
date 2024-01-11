@@ -73,7 +73,11 @@ ip addr
 ```
 ping -c 5 ct4
 ```
+```
+ping <IP address of ct1> -c 5
+```
 Press Ctrl+P+Q, to switch back to Host
+
 
 ### Task 3: Create a new docker bridge and check connectivity between containers of different bridges
 ```
