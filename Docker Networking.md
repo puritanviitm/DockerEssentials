@@ -132,6 +132,13 @@ docker attach ct1
 ```
 ping -c 5 ct5
 ```
+Press Ctrl+P+Q, to switch back to Host
+```
+docker network connect bridge ct3
+```
+```
+docker network inspect bridge
+```
 
 ### Task 5: Launch a container to host network
 ```
