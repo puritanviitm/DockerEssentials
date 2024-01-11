@@ -132,12 +132,6 @@ docker attach ct1
 ```
 ping -c 5 ct5
 ```
-```
-ip addr
-```
-```
-ip route
-```
 
 ### Task 5: Launch a container to host network
 ```
@@ -156,7 +150,12 @@ Press Ctrl+P+Q, to switch back to Host
 ```
 docker network inspect host
 ```
-
+```
+docker run -d --network host --name=ct8 httpd
+```
+```
+docker run -d --network host --name=ct9 nginx
+```
 ### Task 6: Launch a container to none network 
 ```
 docker run -d --network none --name=ct-c6 busybox
