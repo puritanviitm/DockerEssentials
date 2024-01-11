@@ -156,6 +156,9 @@ docker run -d --network host --name=ct8 httpd
 ```
 docker run -d --network host --name=ct9 nginx
 ```
+```
+docker ps -a
+```
 ### Task 6: Launch a container to none network 
 ```
 docker run -d --network none --name=ct-c6 busybox
