@@ -126,7 +126,7 @@ docker network connect ct-bridge1 ct1
 docker network inspect ct-bridge1
 ```
 ```
-docker attach ct1
+docker exec -it ct1 sh
 ```
 ```
 ping -c 5 ct5
