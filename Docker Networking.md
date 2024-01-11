@@ -19,7 +19,7 @@ docker inspect network bridge
 docker exec -it ct1 sh
 ```
 ```
-ping <IP address of ct2>
+ping <IP address of ct2> -c 5
 ```
 ```
 ping ct2
