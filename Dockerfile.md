@@ -137,7 +137,7 @@ docker ps
 docker exec -it wordpress sh
 ```
 ```
-apt update && apt install iputils-ping
+apt update && apt install iputils-ping -y
 ```
 ```
 ping -c 5 sql
