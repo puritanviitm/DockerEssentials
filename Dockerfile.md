@@ -76,6 +76,18 @@ docker build -t ubuntu:Dockerfile .
 ```
 docker image ls
 ```
+```
+docker build .        # docker build -t <image-name> <path of the Docker-file>
+```
+```
+docker image ls
+```
+```
+docker build -t ubuntu:Dockerfile1 .
+```
+```
+docker image ls
+```
 
 ### Task 3: Building a Dockerfile to setup an Ubuntu container with WordPress application
 
