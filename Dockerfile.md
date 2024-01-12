@@ -73,6 +73,9 @@ docker iamge ls
 ```
 docker build -t ubuntu:Dockerfile .
 ```
+```
+docker image ls
+```
 
 ### Task 3: Building a Dockerfile to setup an Ubuntu container with WordPress application
 
