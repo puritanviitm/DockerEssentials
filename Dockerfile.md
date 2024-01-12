@@ -68,6 +68,9 @@ RUN apt update && apt install wget curl tree -y
 docker build .        # docker build -t <image-name> <path of the Docker-file>
 ```
 ```
+docker iamge ls
+```
+```
 docker build -t ubuntu:Dockerfile .
 ```
 
