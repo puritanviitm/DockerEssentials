@@ -75,6 +75,9 @@ docker build -t ubuntu:Dockerfile1 .
 ```
 docker image ls
 ```
+```
+docker run -it --name ct3 ubuntu:Dockerfile
+```
 
 ### Task 3: Building a Dockerfile to setup an Ubuntu container with WordPress application
 
