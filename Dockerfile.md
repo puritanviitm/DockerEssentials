@@ -56,6 +56,13 @@ docker history ubuntu:mehar
 
 
 ### Task 2: Automation - Using Dockerfile to build docker image.
+```
+vi Dockerfile
+```
+```Dockerfile
+FROM ubuntu
+RUN apt update && apt install wget curl tree -y
+```
 
 ### Task 3: Building a Dockerfile to setup an Ubuntu container with WordPress application
 
