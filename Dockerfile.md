@@ -49,9 +49,9 @@ tree
 CTRL+P+Q
 
 
-### Task 2: Automation- Using Dockerfile to build docker image.
+### Task 2: Automation - Using Dockerfile to build docker image.
 
-#### Building a Dockerfile to setup an Ubuntu container with WordPress application
+#### Task 3: Building a Dockerfile to setup an Ubuntu container with WordPress application
 
 ```
 mkdir Wordpress
