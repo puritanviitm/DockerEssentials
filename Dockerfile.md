@@ -128,8 +128,18 @@ docker run -d --network ct-bridge --name mysql -e MYSQL_DATABASE=wordpress -e MY
 docker ps
 ```
 ```
-docker run -d --network ct-bridge -p 80:80 ct-wordpress:v1
+docker run -d --name wordpress --network ct-bridge -p 80:80 ct-wordpress:v1
 ```
 ```
 docker ps
 ```
+```
+docker exec -it wordpress sh
+```
+```
+apt update && apt install iputils-ping
+```
+```
+ping -c 5 sql
+```
+
