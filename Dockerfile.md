@@ -63,21 +63,8 @@ vi Dockerfile
 FROM ubuntu
 RUN apt update && apt install wget curl tree -y
 ```
-
 ```
-docker build .        # docker build -t <image-name> <path of the Docker-file>
-```
-```
-docker iamge ls
-```
-```
-docker build -t ubuntu:Dockerfile .
-```
-```
-docker image ls
-```
-```
-docker build .        # docker build -t <image-name> <path of the Docker-file>
+docker build -t ubuntu:Dockerfile .    # docker build -t <image-name> <path of the Docker-file>
 ```
 ```
 docker image ls
