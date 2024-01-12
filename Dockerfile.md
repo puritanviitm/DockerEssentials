@@ -47,6 +47,12 @@ wget
 tree
 ```
 CTRL+P+Q
+```
+docker history ubuntu:latest
+```
+```
+docker history ubuntu:mehar
+```
 
 
 ### Task 2: Automation - Using Dockerfile to build docker image.
