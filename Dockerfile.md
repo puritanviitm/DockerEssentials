@@ -91,7 +91,7 @@ cd Wordpress
 vi Dockerfile
 ```
 Content of Dockerfile to paste
-```
+```Dockerfile
 FROM ubuntu:20.04
 MAINTAINER ADMIN "admin@cloudthat.com"
 ENV DEBIAN_FRONTEND=noninteractive
