@@ -1,17 +1,54 @@
 ## Creating containers from Custom Images
 ### Task 1: Manual - Using commit to build a docker image
 ```
-docker run -it ct1 ubuntu
+docker run -it --name ct1 ubuntu sh
+```
+```
+curl
+```
+```
+wget
+```
+```
+tree
 ```
 ```
 apt update && apt install curl wget tree -y
 ```
 ```
-docker commit 
+curl
 ```
 ```
-docker run -it ct2 ubunutu:mehar
+wget
 ```
+```
+tree
+```
+CTRL+P+Q
+```
+docker image ls
+```
+```
+docker commit ct1 ubuntu:mehar
+```
+```
+docker image ls
+```
+```
+docker run -it --name ct2 ubuntu:mehar
+```
+```
+curl
+```
+```
+wget
+```
+```
+tree
+```
+CTRL+P+Q
+
+
 ### Task 2: Automation- Using Dockerfile to build docker image.
 
 #### Building a Dockerfile to setup an Ubuntu container with WordPress application
