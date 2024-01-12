@@ -63,6 +63,12 @@ vi Dockerfile
 FROM ubuntu
 RUN apt update && apt install wget curl tree -y
 ```
+```
+docker build .        # docker build -t <image-name> <path of the Docker-file>
+```
+```
+docker build -t ubuntu:Dockerfile .
+```
 
 ### Task 3: Building a Dockerfile to setup an Ubuntu container with WordPress application
 
