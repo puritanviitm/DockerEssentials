@@ -69,6 +69,7 @@ docker build -t ubuntu:Dockerfile .    # docker build -t <image-name> <path of t
 ```
 docker image ls
 ```
+To check if multiple images can be built from same Dockerfile, we build another image as well
 ```
 docker build -t ubuntu:Dockerfile1 .
 ```
