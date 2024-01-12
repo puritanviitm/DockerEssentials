@@ -1,6 +1,8 @@
-## Building a Dockerfile to setup an Ubuntu container with WordPress application
+## Creating containers from Custom Images
+### Task 1: Manual - Using commit
+### Task 2: Automation- Using Dockerfile to uild docker image.
 
-### Task 1: Deploying MySQL and WordPress containers
+#### Building a Dockerfile to setup an Ubuntu container with WordPress application
 
 ```
 mkdir Wordpress
