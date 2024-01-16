@@ -50,6 +50,8 @@ COPY --from=stage1 /app/helloworld .
 CMD ["./helloworld"]
 ```
 ```
+cp ../large/helloworld.go .
+```
 docker build -t hello-go:v2 .
 ```
 ```
