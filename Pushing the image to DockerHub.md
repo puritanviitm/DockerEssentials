@@ -3,22 +3,25 @@
 docker login
 ```
 ```
-docker tag ct-wordpress:v1 <replace your dockerhub account name>/ct-wordpress:v1
+docker pull ubuntu
+```
+```
+docker tag ubuntu:latest meharnafisdockerhub/ubuntu:mehar
 ```
 ```
 docker image ls
 ```
 ```
-docker push <replace your dockerhub account name>/ct-wordpress:v1
+docker push meharnafisdockerhub/ubuntu:mehar
 ```
 ```
 docker image ls
 ```
 ```
-docker image rm <replace your dockerhub account name>/ct-wordpress:v1 ct-wordpress:v1   #local repo
+docker image rm meharnafisdockerhub/ubuntu:mehar   #local repo
 ```
 ```
-docker run -d -p 8080:80 <replace your dockerhub account name>/ct-wordpress:v1
+docker run -d -p 8080:80 meharnafisdockerhub/ubuntu:mehar
 ```
 ```
 docker stop < replace container id/name >
