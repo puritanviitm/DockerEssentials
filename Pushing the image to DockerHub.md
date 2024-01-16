@@ -24,7 +24,7 @@ docker image rm meharnafisdockerhub/ubuntu:mehar   #local repo
 docker run -d -p 8080:80 meharnafisdockerhub/ubuntu:mehar
 ```
 ```
-docker stop < replace container id/name >
+docker ps -a
 ```
 ```
 docker container rm < replace container id/name >
@@ -38,6 +38,4 @@ docker image rm < replace image id/name > < replace image id/name >
 ```
 docker image ls
 ```
-```
-docker image ls -a
-```
+
