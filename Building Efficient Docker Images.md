@@ -52,6 +52,7 @@ CMD ["./helloworld"]
 ```
 cp ../large/helloworld.go .
 ```
+```
 docker build -t hello-go:v2 .
 ```
 ```
