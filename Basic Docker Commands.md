@@ -87,6 +87,9 @@ docker container exec -it ct4 /bin/bash
 apt update && apt install -y wget curl
 ```
 ```
+apt install procps
+```
+```
 ps aux
 ```
 ```
