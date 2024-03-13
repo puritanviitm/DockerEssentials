@@ -5,6 +5,7 @@ docker login
 ```
 docker pull ubuntu
 ```
+Make sure to replace <meharnafisdockerhub> with the name of your DockerHub repo
 ```
 docker tag ubuntu:latest meharnafisdockerhub/ubuntu:mehar
 ```
