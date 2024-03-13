@@ -33,8 +33,9 @@ docker container rm < replace container id/name >
 ```
 docker image ls
 ```
+Remove multiple containers with a single command
 ```
-docker image rm < replace image id/name > < replace image id/name >
+docker image rm < replace image id/name > < replace image id1/name1 >
 ```
 ```
 docker image ls
