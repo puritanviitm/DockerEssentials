@@ -241,7 +241,7 @@ apt install curl
 curl https://8.8.8.8
 ```
 Also if you check the default port 80, the container would not be accessible.
-```
+
 Press Ctrl+P+Q, to switch back to Host
 ```
 docker inspect none
