@@ -21,4 +21,5 @@
 * [Lab-8: Dockerfile](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Dockerfile.md)
 * [Lab-9: Pushing the image to DockerHub](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Pushing%20the%20image%20to%20DockerHub.md)
 * [Lab-10: Building Efficient Docker Images](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Building%20Efficient%20Docker%20Images.md)
+* [Lab-11: Problem Statement](https://github.com/Mehar-Nafis/DockerEssentials/blob/main/Problem%20Statement.md)
 
